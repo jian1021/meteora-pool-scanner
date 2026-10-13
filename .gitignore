@@ -1,0 +1,35 @@
+# 环境变量与密钥
+.env
+
+# 数据与缓存
+data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# 导出
+exports/
+*.csv
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 会话/工具元数据 (Sisyphus/Playwright)
+.sisyphus/
+.playwright-mcp/

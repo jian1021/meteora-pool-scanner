@@ -1,0 +1,12 @@
+# Meteora 全池扫描与筛选器 V3.1
+# Python 3.10+  (已在 Python 3.14 上验证)
+streamlit>=1.30
+requests>=2.31
+pandas>=2.0
+numpy>=1.24
+python-dotenv>=1.0
+altair>=5.0
+ta>=0.11      # 技术指标库（页面⑨ ATR 计算）
+
+# 测试用（可选）
+pytest>=7.0
