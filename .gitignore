@@ -2,9 +2,11 @@
 .env
 
 # 数据与缓存
-data/
+data/*
 *.db
 *.db-journal
+*.db-wal
+*.db-shm
 *.sqlite
 *.sqlite3
 cache/
@@ -33,3 +35,7 @@ Thumbs.db
 # 会话/工具元数据 (Sisyphus/Playwright)
 .sisyphus/
 .playwright-mcp/
+
+# data/ 数据快照：主库入库便于开箱即用；SQLite 事务侧边文件不入库
+!data/meteora.db
+!data/meteora_pools.db
